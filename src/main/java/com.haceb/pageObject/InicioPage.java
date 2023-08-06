@@ -44,10 +44,67 @@ public class InicioPage extends PageObject {
 
     private final By btnAcepto = By.xpath("//input[@type='submit' and contains(@class, 'gigya-input-submit') and contains(@class, 'hc-c-register-screen-submit') and contains(@class, 'invi') and @value='Enviar']\n");
 
+    public By getLnkRegistrarse() {
+        return lnkRegistrarse;
+    }
 
+    public By getTxtCorreoElectronico() {
+        return txtCorreoElectronico;
+    }
 
+    public By getTxtNombre() {
+        return txtNombre;
+    }
 
+    public By getTxtApellido() {
+        return txtApellido;
+    }
 
+    public By getTxtIngresarPassword() {
+        return txtIngresarPassword;
+    }
 
+    public By getTxtConfirmarPassword() {
+        return txtConfirmarPassword;
+    }
 
+    public By getDdlLeidoTerminos() {
+        return ddlLeidoTerminos;
+    }
+
+    public By getDdlAcepto() {
+        return ddlAcepto;
+    }
+
+    public By getTxtCedula() {
+        return txtCedula;
+    }
+
+    public By getTxtGenero() {
+        return txtGenero;
+    }
+
+    public By getTxtFechaNacimiento() {
+        return txtFechaNacimiento;
+    }
+
+    public By getTxtCodigo() {
+        return txtCodigo;
+    }
+
+    public By getTxtCelular() {
+        return txtCelular;
+    }
+
+    public By getTxtDepartamento() {
+        return txtDepartamento;
+    }
+
+    public By getTxtCiudad() {
+        return txtCiudad;
+    }
+
+    public By getBtnAcepto() {
+        return btnAcepto;
+    }
 }
